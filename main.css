@@ -8,7 +8,15 @@ html {
 .container {
    display: flex;
  }
- 
+ .mt-0{
+  color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
  .column {
    flex: 1;
    padding: 20px;
@@ -65,6 +73,7 @@ header::before, .about::before {
    filter: brightness(0.6) saturate(0.7) contrast(1.05);
 }
 .p{
+   text-indent: 20px;
    color: white;
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -164,10 +173,18 @@ span {
 }
 
 .title {
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 39ch;
   overflow: hidden;
-  background-color: #444;
-  color:white;
   font-size: 40px;
   font-family: monospace;
   white-space: nowrap;
@@ -447,8 +464,16 @@ html {
   }
   .mt-0{
     margin-left: 15px;
+    color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   .p{
+    text-indent: 20px;
     margin-left: 15px;
   }
   #logo-img{
@@ -558,7 +583,7 @@ html {
   }
   
   .block-text p {
-    font-size: 16px;
+    font-size: 20px;
     text-align: justify;
   }
   #unique-iframe{
@@ -572,8 +597,19 @@ html {
   }
   .mt-0{
     margin-left: 15px;
+    font-size: 24px;
+    font-weight: bold;
+  color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   .p{
+    text-indent: 20px;
+    font-size: 20px;
     margin-left: 15px;
   }
   #logo-img{
